@@ -9,6 +9,7 @@ object TestRepo_Distrib : BuildType({
     uuid = "9bea9c62-c8f5-44c9-b0c7-f21bc7b23a7b"
     id = "TestRepo_Distrib"
     name = "Distrib"
+    description = "test"
 
     artifactRules = """D:\tmp\demo\artifact.zip"""
 
