@@ -56,7 +56,7 @@ object TestRepo_Distrib : BuildType({
     requirements {
         exists("dd", "RQ_10")
         equals("aaa", "%")
-        contains("fff", "11%rrr%22")
+        contains("fff", "11%%rrr%%22")
     }
     
     disableSettings("RQ_10")
